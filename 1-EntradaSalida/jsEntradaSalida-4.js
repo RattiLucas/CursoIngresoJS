@@ -7,7 +7,7 @@ function mostrar()
     var username;
 	
 		username = prompt("Buenas, cómo te llamas?");
-	
-		alert(username.getElementById(prompt).ToString());
+
+			document.getElementById("FormIngreso").innerHTML = "Hola, " + username;
 }
 
