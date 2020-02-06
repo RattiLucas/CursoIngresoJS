@@ -8,6 +8,6 @@ function mostrar()
 	
 		username = prompt("Buenas, cómo te llamas?");
 
-			document.getElementById("FormIngreso").innerHTML = "Hola, " + username;
+			document.getElementById("FormIngreso").value = "Hola, " + username;
 }
 
