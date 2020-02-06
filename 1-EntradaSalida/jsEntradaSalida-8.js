@@ -6,7 +6,7 @@ function SacarResto()
 {
     var num1;
     var num2;
-    var numFinal
+    var numFinal;
 
         num1 = document.getElementById("numeroDividendo").value;
         num2 = document.getElementById("numeroDivisor").value;
@@ -15,10 +15,6 @@ function SacarResto()
         num2 = parseInt(num2);
 
         numFinal = num1 % num2;
-
-
-        console.log(numFinal);
-
 
         alert("El resto de la división entre ambos numeros es " + numFinal);
 }

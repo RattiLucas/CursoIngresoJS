@@ -57,7 +57,7 @@ function dividir()
 {
     var num1;
     var num2;
-    var numFinal
+    var numFinal;
 
         num1 = document.getElementById("numeroUno").value;
         num2 = document.getElementById("numeroDos").value;
@@ -66,7 +66,7 @@ function dividir()
         num2 = parseInt(num2);
 
         numFinal = num1 / num2;
-
+        console.log(numFinal);
         alert("El resultado de la división de ambos numeros es " + numFinal);
 }
 

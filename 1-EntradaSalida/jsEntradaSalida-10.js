@@ -13,7 +13,5 @@ function mostrarAumento()
 
         numFinal = num1 - num1*25/100;
 
-        console.log(numFinal);
-
         document.getElementById("resultado").value = numFinal;
 }
