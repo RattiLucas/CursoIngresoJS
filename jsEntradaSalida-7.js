@@ -67,6 +67,6 @@ function dividir()
 
         numFinal = num1 / num2;
 
-        alert("El resultado de la divición de ambos numeros es " + numFinal);
+        alert("El resultado de la división de ambos numeros es " + numFinal);
 }
 
