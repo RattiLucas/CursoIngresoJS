@@ -8,11 +8,16 @@ function mostrarAumento()
     var numFinal;
 
         num1 = document.getElementById("importe").value;
-        
         num1 = parseInt(num1);
 
-        numFinal = num1 - num1*25/100;
-        //numFinal = num1 - num1*0.25;
-
-        document.getElementById("resultado").value = numFinal;
+        if (isNaN(num1) == true){
+            alert("Escribe un número, genio");
+            document.getElementById("importe").value = "";
+        } else {
+            numFinal = num1 - num1*0.25;
+            //numFinal = num1 - num1*25/100;
+            //numFinal = num1 - num1*.25;
+            document.getElementById("resultado").value = numFinal;
+        }
+        
 }
