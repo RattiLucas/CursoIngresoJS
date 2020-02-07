@@ -18,6 +18,5 @@ function mostrarAumento()
             //numFinal = num1 - num1*25/100;
             //numFinal = num1 - num1*.25;
             document.getElementById("resultado").value = numFinal;
-        }
-        
+        }       
 }
